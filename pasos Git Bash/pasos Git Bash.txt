@@ -1,0 +1,58 @@
+alarc@YoshiminGabo MINGW64 ~ (master)
+$ '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6'
+bash: /c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6: Is a directory
+
+alarc@YoshiminGabo MINGW64 ~ (master)
+$ cd '/c/Users/alarc/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6'
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6 (master)
+$ ls
+js/
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6 (master)
+$ mkdir mi-proyecto3 && cd mi-proyecto3
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/mi-proyecto3 (master)
+$ npm init -y
+Wrote to C:\Users\alarc\OneDrive\Escritorio\PRACTIANDO HTML\MODULO6\SESION2-M6\mi-proyecto3\package.json:
+
+{
+  "name": "mi-proyecto3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
+
+
+
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/mi-proyecto3 (master)
+$ npm install nodemon faker-js/faker chance nanoid
+
+added 32 packages, and audited 33 packages in 2m
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/mi-proyecto3 (master)
+$ touch index.js utils.js config.js
+
+alarc@YoshiminGabo MINGW64 ~/OneDrive/Escritorio/PRACTIANDO HTML/MODULO6/SESION2-M6/mi-proyecto3 (master)
+$ npx nodemon index.mjs
+[nodemon] 3.1.4
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node index.mjs`
+ID 1: 14SvGXw0NtD2gxcEoMS_X
+ID 2: klJRUKpb1CLBDfNt3BcyU
+Resultado: 14SvGXw0NtD2gxcEoMS_XklJRUKpb1CLBDfNt3BcyU
+[nodemon] clean exit - waiting for changes before restart
